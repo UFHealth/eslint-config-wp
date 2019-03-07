@@ -33,14 +33,15 @@ However, if your script isn't for the editor and you'd like to use a different v
 
 ### Using a different React library
 
-...no problem! Just change the `pragma` setting accordingly:
+...no problem! Just change the `pragma` and `version` settings accordingly:
 
 ```json
 {
   "extends": ["@ufhealth/eslint-config-wp"],
   "settings": {
     "react": {
-      "pragma": "React" // or "Preact" or whatever
+      "pragma": "Preact",
+      "version": "8.4"
     }
   }
 }
